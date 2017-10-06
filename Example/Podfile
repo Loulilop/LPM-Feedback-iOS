@@ -1,0 +1,10 @@
+platform :ios, '9.0'
+use_frameworks!
+
+target 'Feedback_Example' do
+  pod 'LPM-Feedback', :path => '../'
+
+  pod 'Reactored', :git => 'https://github.com/loup-studio/Reactored-iOS'
+  pod 'SwiftCommons', :git => 'https://github.com/loup-studio/Swift-Commons'
+
+end
