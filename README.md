@@ -6,7 +6,9 @@ Feedback is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'Feedback', :git => 'https://github.com/loup-studio/LPM-Feedback-iOS'
+pod 'Reactored', :git => 'https://github.com/loup-studio/Reactored-iOS'
+pod 'SwiftCommons', :git => 'https://github.com/loup-studio/Swift-Commons'
+pod 'LPM-Feedback', :git => 'https://github.com/loup-studio/LPM-Feedback-iOS'
 ```
 
 ## Usage
