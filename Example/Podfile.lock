@@ -1,50 +1,48 @@
 PODS:
-  - Alamofire (4.5.1)
+  - Alamofire (4.6.0)
   - Alertift (3.0)
-  - Differentiator (2.0.2)
-  - IQKeyboardManagerSwift (4.0.13)
-  - Keyboardy (0.2.1)
+  - Differentiator (3.0.2)
+  - IQKeyboardManagerSwift (5.0.6)
   - LPM-Feedback (0.1.0):
-    - IQKeyboardManagerSwift (~> 4.0)
+    - IQKeyboardManagerSwift (~> 5)
     - SwiftCommons
-  - Mortar/Core (1.3.0)
-  - Mortar/MortarVFL (1.3.0):
+  - Mortar/Core (1.4.0.1)
+  - Mortar/MortarVFL (1.4.0.1):
     - Mortar/Core
-  - Moya/Core (9.0.0):
+  - Moya/Core (10.0.1):
     - Alamofire (~> 4.1)
     - Result (~> 3.0)
-  - Moya/RxSwift (9.0.0):
+  - Moya/RxSwift (10.0.1):
     - Moya/Core
-    - RxSwift (~> 3.3)
-  - ObjectMapper (3.0.0)
+    - RxSwift (~> 4.0)
+  - ObjectMapper (3.1.0)
   - Reactored (0.1.0):
     - RxSwift
   - Result (3.2.4)
-  - RxCocoa (3.6.1):
-    - RxSwift (~> 3.6)
-  - RxDataSources (2.0.2):
-    - Differentiator (~> 2.0)
-    - RxCocoa (>= 3.6.1)
-    - RxSwift (>= 3.6.1)
-  - RxGesture (1.1.1):
-    - RxCocoa (~> 3.6)
-    - RxSwift (~> 3.6)
-  - RxSwift (3.6.1)
-  - SVProgressHUD (2.2.1)
+  - RxCocoa (4.0.0):
+    - RxSwift (~> 4.0)
+  - RxDataSources (3.0.2):
+    - Differentiator (~> 3.0)
+    - RxCocoa (~> 4.0)
+    - RxSwift (~> 4.0)
+  - RxGesture (1.2.1):
+    - RxCocoa (~> 4.0)
+    - RxSwift (~> 4.0)
+  - RxSwift (4.0.0)
+  - SVProgressHUD (2.2.2)
   - SwiftCommons (0.1.0):
     - Alamofire
     - Alertift
-    - Keyboardy (~> 0.2)
-    - Mortar/MortarVFL
-    - Moya/RxSwift (~> 9.0)
+    - Mortar/MortarVFL (~> 1.4)
+    - Moya/RxSwift (~> 10.0)
     - ObjectMapper
     - Reactored
-    - RxDataSources (~> 2.0)
-    - RxGesture (~> 1.1)
-    - RxSwift (~> 3.6)
+    - RxDataSources (~> 3.0)
+    - RxGesture (~> 1.2)
+    - RxSwift (~> 4)
     - SVProgressHUD
     - SwiftMessages
-  - SwiftMessages (4.0.0)
+  - SwiftMessages (4.1.0)
 
 DEPENDENCIES:
   - LPM-Feedback (from `../`)
@@ -64,28 +62,27 @@ CHECKOUT OPTIONS:
     :commit: eac8e84b5fa6ce4c09512dd99767e64987bfee2b
     :git: https://github.com/loup-studio/Reactored-iOS
   SwiftCommons:
-    :commit: b952482fdd1bc69e2bb8a5fb80b75997c1c0bf89
+    :commit: 2b10e434c5e37346c4c7dca408c1b6a8840f26d5
     :git: https://github.com/loup-studio/Swift-Commons
 
 SPEC CHECKSUMS:
-  Alamofire: 2d95912bf4c34f164fdfc335872e8c312acaea4a
+  Alamofire: f41a599bd63041760b26d393ec1069d9d7b917f4
   Alertift: ffd7f53d819ea29b65a0d08e5a1468fac8cc0d6a
-  Differentiator: caa9b3957981a2ac8e6b2eac8a676af461caa604
-  IQKeyboardManagerSwift: fb399c4cddcd8d9bbcd2d0c7c81ed290b61c088e
-  Keyboardy: 6b2fb706ac2d30442f8624f22b0c661d24aa3dcb
-  LPM-Feedback: 8c3bcd63e9cd1436c2f630b5310dd149bf146ed1
-  Mortar: 6c69e9113aa27409c4a0c8375e2bf22f263b3701
-  Moya: cf5e6ee93af526532f92614004b8ad2ea60fd845
-  ObjectMapper: 92230db59bf8f341a5c3a3cf0b9fbdde3cf0d87f
+  Differentiator: a87be69eba49ec4ab460c7671143ee3a9eececfd
+  IQKeyboardManagerSwift: 02bfbb0dff71c66d0ab77d80d25dfce0c3717735
+  LPM-Feedback: de7177d9e159e188442c40df2d74a454b86c5855
+  Mortar: bcbf54fcc90d7dda22a197543ba55f63e0618b2f
+  Moya: 9e621707ff754eeb51ff3ec51a3d54e517c0733a
+  ObjectMapper: 20505058f54e5c3ca69e1d6de9897d152a5369a6
   Reactored: 7edbe3b84bdf25e1e7e59dc23699e8ddff96fd44
   Result: d2d07204ce72856f1fd9130bbe42c35a7b0fea10
-  RxCocoa: 84a08739ab186248c7f31ce4ee92d6f8a947d690
-  RxDataSources: 7f190474a93a206c082c2d74c4cc9c8f7bea4feb
-  RxGesture: a297957f2940b50f7073d1e7ff0eaa3f87cd27a5
-  RxSwift: f9de85ea20cd2f7716ee5409fc13523dc638e4e4
-  SVProgressHUD: db27c54e6e18bc903341661fc9feb55e04905cc4
-  SwiftCommons: cfc930885bfdab5e557095221e9babcf79f7a6dd
-  SwiftMessages: cd565e0e7d095584be1770c012c6b5be4183b5ee
+  RxCocoa: d62846ca96495d862fa4c59ea7d87e5031d7340e
+  RxDataSources: cb7c31e652a87ebb919da45f716bbb87b3765f6b
+  RxGesture: c278eb05b187abd47e11e65464ae4de53ab71d95
+  RxSwift: fd680d75283beb5e2559486f3c0ff852f0d35334
+  SVProgressHUD: 59b2d3dabacbd051576d21d32293ca7228dc18b0
+  SwiftCommons: c1831854893b90c3cfd25b1f39d14ae1762c7617
+  SwiftMessages: 1bacc783c8f10bdfdc57c14860cae8a1f1fa6591
 
 PODFILE CHECKSUM: f6be330d1a9e141f7d1982c525acfffc3913c4f4
 

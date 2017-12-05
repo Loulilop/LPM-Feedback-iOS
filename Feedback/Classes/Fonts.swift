@@ -24,7 +24,7 @@ internal class Fonts {
         let url = bundle.url(forResource: name, withExtension: "ttf")!
         let fontData = NSData(contentsOf: url)!
         let dataProvider = CGDataProvider(data: fontData)!
-        let fontRef = CGFont(dataProvider)
+        let fontRef = CGFont(dataProvider)!
         
         var errorRef: Unmanaged<CFError>? = nil
         if (CTFontManagerRegisterGraphicsFont(fontRef, &errorRef) == false) {

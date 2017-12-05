@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
 
 
     s.dependency 'SwiftCommons'
-    s.dependency 'IQKeyboardManagerSwift', '~> 4.0'
+    s.dependency 'IQKeyboardManagerSwift', '~> 5'
 
     s.description      = <<-DESC
 LMP Feedback lib

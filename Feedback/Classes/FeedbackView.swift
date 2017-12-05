@@ -12,7 +12,6 @@ import RxSwift
 import RxCocoa
 import RxGesture
 import Mortar
-import Keyboardy
 import Alertift
 
 public class FeedbackView: BaseControllerView, ReactorView {
@@ -100,7 +99,7 @@ public class FeedbackView: BaseControllerView, ReactorView {
         
         if state.submitTask.isSuccessful {
             Alertift.alert(title: nil, message: "Merci! Votre avis a bien été pris en compte")
-                .action(.default("OK")) { _ in
+                .action(.default("OK")) { _, _, _ in
                     _ = self.router(.back)
                 }
                 .show(on: controller)

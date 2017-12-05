@@ -29,7 +29,7 @@ class ViewController: UIViewController {
         button.addTarget(self, action: #selector(tap), for: .touchUpInside)
     }
     
-    func tap() {
+    @objc func tap() {
         // configure feedback
         
         // required: email
