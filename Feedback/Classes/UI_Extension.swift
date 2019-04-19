@@ -9,7 +9,7 @@ import UIKit
 
 internal extension UIColor {
     
-    internal convenience init(rgb: UInt, alpha: Float = 1) {
+    convenience init(rgb: UInt, alpha: Float = 1) {
         self.init(
             red: CGFloat((rgb & 0xFF0000) >> 16) / 255.0,
             green: CGFloat((rgb & 0x00FF00) >> 8) / 255.0,
@@ -20,7 +20,7 @@ internal extension UIColor {
 
 internal extension UIButton {
     
-    internal var horizontalPadding: CGFloat {
+    var horizontalPadding: CGFloat {
         get {
             fatalError()
         }
@@ -31,18 +31,18 @@ internal extension UIButton {
         }
     }
     
-    internal var title: String {
+    var title: String {
         get {
             fatalError()
         }
         
         set {
-            setTitle(newValue, for: UIControlState())
+            setTitle(newValue, for: UIControl.State())
         }
     }
 }
 
-internal extension UIImage {
+extension UIImage {
     internal static func named(_ name: String) -> UIImage {
         let bundle = Bundle(url: Bundle(for: FeedbackController.self).url(forResource: "LPM-Feedback", withExtension: "bundle")!)!
         return UIImage(named: name, in: bundle, compatibleWith: nil)!
