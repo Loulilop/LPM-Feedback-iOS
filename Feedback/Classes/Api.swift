@@ -55,7 +55,7 @@ internal class HttpLogger: PluginType {
     
     private func requestLabel(_ request: URLRequest) -> String {
         let url = request.url!.absoluteString
-        let path = url.substring(from: url.index(url.startIndex, offsetBy: FeedbackConfiguration.Api.characters.count))
+        let path = url.substring(from: url.index(url.startIndex, offsetBy: FeedbackConfiguration.Api.count))
         return "\(request.httpMethod!) \(path)"
     }
     
