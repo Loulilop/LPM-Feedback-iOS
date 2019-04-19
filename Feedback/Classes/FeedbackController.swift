@@ -32,8 +32,8 @@ public class FeedbackController: BaseController<FeedbackReactor, FeedbackView> {
         }
         
         if FeedbackConfiguration.AutoKeyboardManager {
-            IQKeyboardManager.sharedManager().enable = true
-            IQKeyboardManager.sharedManager().toolbarDoneBarButtonItemText = "OK"
+            IQKeyboardManager.shared.enable = true
+            IQKeyboardManager.shared.toolbarDoneBarButtonItemText = "OK"
         }
     }
     
@@ -52,7 +52,7 @@ public class FeedbackController: BaseController<FeedbackReactor, FeedbackView> {
         super.viewWillDisappear(animated)
         
         if FeedbackConfiguration.AutoKeyboardManager {
-            IQKeyboardManager.sharedManager().enable = false
+            IQKeyboardManager.shared.enable = false
         }
     }
 }
