@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
     s.homepage         = 'https://github.com/loup-studio/LPM-Feedback-iOS'
     s.license          = { :type => 'Proprietary', :file => 'LICENSE' }
     s.author           = { 'Lukasz' => 'lukasz@intheloup.io' }
-    s.source           = { :git => 'https://github.com/loup-studio/LPM-Feedback-iOS.git', :tag => s.version.to_s }
+    s.source           = { :git => 'https://github.com/Loulilop/LPM-Feedback-iOS.git', :tag => s.version.to_s }
 
     s.ios.deployment_target = '9.0'
     s.source_files = 'Feedback/Classes/**/*'
